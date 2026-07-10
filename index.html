@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أرض الخيرات الأولى | استيراد وبيع المستلزمات الزراعية وقطع الغيار</title>
+    <meta
+      name="description"
+      content="شركة أرض الخيرات الأولى متخصصة في استيراد وبيع المستلزمات الزراعية، المعدات، وقطع الغيار للمزارعين وتجار الجملة والمحلات الزراعية."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="logo">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 20h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M12 19.5V10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M12 10C7.5 8.5 5.5 5.5 6.5 3.5C7.2 2 9 1.5 10.5 3" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" fill="currentColor" fill-opacity="0.35"/>
+              <path d="M12 10C16.5 8.5 18.5 5.5 17.5 3.5C16.8 2 15 1.5 13.5 3" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" fill="currentColor" fill-opacity="0.35"/>
+              <ellipse cx="12" cy="18.5" rx="4" ry="2.2" stroke="currentColor" stroke-width="1.3" fill="currentColor" fill-opacity="0.3"/>
+            </svg>
+          </span>
+          <div class="logo-text">
+            <span class="logo-title">أرض الخيرات الأولى</span>
+            <span class="logo-subtitle">استيراد وبيع المستلزمات الزراعية وقطع الغيار</span>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#services" data-i18n="nav.services">مجالات العمل</a>
+          <a href="#about" data-i18n="nav.about">من نحن</a>
+          <a href="#faq" data-i18n="nav.faq">الأسئلة الشائعة</a>
+          <a href="#contact" class="btn btn-ghost" data-i18n="nav.contact">تواصل معنا</a>
+          <button id="lang-toggle" class="btn btn-ghost" type="button">EN</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1 data-i18n="hero.title">شريككم الموثوق في المستلزمات الزراعية وقطع الغيار.</h1>
+            <p data-i18n="hero.subtitle">
+              في أرض الخيرات الأولى نوفر تشكيلة متكاملة من البذور والأسمدة والمبيدات، إلى جانب
+              المعدات الزراعية وقطع غيار الجرارات والآلات، بجودة عالية وأسعار تنافسية للمزارعين
+              وتجار الجملة.
+            </p>
+            <div class="hero-actions">
+              <a href="#services" class="btn btn-primary" data-i18n="hero.ctaPrimary">استكشف منتجاتنا</a>
+              <a href="#about" class="btn btn-secondary" data-i18n="hero.ctaSecondary">تعرف أكثر على الشركة</a>
+            </div>
+            <div class="hero-tags">
+              <span data-i18n="hero.tag1">أسمدة ومبيدات زراعية</span>
+              <span data-i18n="hero.tag2">معدات ري وزراعة</span>
+              <span data-i18n="hero.tag3">قطع غيار للجرارات والآلات</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card hero-card-main">
+              <h2 data-i18n="hero.cardMain.title">استيراد موثوق</h2>
+              <p data-i18n="hero.cardMain.text">نختار موردين معتمدين لضمان جودة المنتجات وملاءمتها للظروف الزراعية المحلية.</p>
+              <ul>
+                <li data-i18n="hero.cardMain.item1">علامات تجارية عالمية معتمدة</li>
+                <li data-i18n="hero.cardMain.item2">تشكيلات موسمية حسب مواسم الزراعة</li>
+                <li data-i18n="hero.cardMain.item3">جودة مضمونة وأسعار منافسة</li>
+              </ul>
+            </div>
+            <div class="hero-card hero-card-secondary">
+              <span class="badge" data-i18n="hero.cardSecondary.badge">تخصصنا</span>
+              <ul>
+                <li data-i18n="hero.cardSecondary.item1">بذور وأسمدة ومبيدات حشرية</li>
+                <li data-i18n="hero.cardSecondary.item2">مضخات ري وشبكات تغذية</li>
+                <li data-i18n="hero.cardSecondary.item3">قطع غيار جرارات ومعدات زراعية</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services / Imports Section -->
+      <section id="services" class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2 data-i18n="services.title">مجالات عملنا</h2>
+            <p data-i18n="services.text">
+              نستورد ونوفر كل ما يحتاجه المزارع والتاجر من مستلزمات زراعية ومعدات وقطع غيار،
+              مع التزام بالجودة والتوفر على مدار المواسم الزراعية.
+            </p>
+          </header>
+          <div class="cards-grid">
+            <article class="card">
+              <div class="card-icon paint"></div>
+              <h3 data-i18n="services.card1.title">المستلزمات الزراعية</h3>
+              <p data-i18n="services.card1.text">
+                بذور محسّنة وأسمدة عضوية وكيماوية ومبيدات آمنة، تناسب مختلف المحاصيل
+                والبيئات الزراعية في ليبيا والمنطقة.
+              </p>
+              <ul>
+                <li data-i18n="services.card1.item1">بذور خضروات وحبوب وفواكه</li>
+                <li data-i18n="services.card1.item2">أسمدة NPK ومغذيات نباتية</li>
+                <li data-i18n="services.card1.item3">مبيدات حشرية وفطرية وأعشاب</li>
+              </ul>
+            </article>
+            <article class="card">
+              <div class="card-icon accessories"></div>
+              <h3 data-i18n="services.card2.title">المعدات والآلات الزراعية</h3>
+              <p data-i18n="services.card2.text">
+                معدات حديثة تسهّل الزراعة والحصاد والري، من مضخات المياه إلى أدوات
+                الحراثة والرش الزراعي.
+              </p>
+              <ul>
+                <li data-i18n="services.card2.item1">مضخات مياه وشبكات ري بالتنقيط</li>
+                <li data-i18n="services.card2.item2">جرارات ومعدات حرث وزراعة</li>
+                <li data-i18n="services.card2.item3">رشاشات ومولدات زراعية</li>
+              </ul>
+            </article>
+            <article class="card">
+              <div class="card-icon parts"></div>
+              <h3 data-i18n="services.card3.title">قطع الغيار والصيانة</h3>
+              <p data-i18n="services.card3.text">
+                قطع غيار أصلية وبديلة للجرارات والحصادات والمضخات، لضمان استمرارية
+                العمل في المزارع دون توقف.
+              </p>
+              <ul>
+                <li data-i18n="services.card3.item1">فلاتر وزيوت وقطع محركات</li>
+                <li data-i18n="services.card3.item2">إطارات ومساحات ومحاور</li>
+                <li data-i18n="services.card3.item3">قطع هيدروليكية وكهربائية</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="gallery">
+            <header class="section-header align-left">
+              <h2 data-i18n="gallery.title">نماذج من منتجاتنا</h2>
+              <p data-i18n="gallery.text">لمحة عن المستلزمات والمعدات الزراعية التي نوفرها للمزارعين وتجار الجملة.</p>
+            </header>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="photo/photo.png" alt="حقول زراعية خضراء" data-i18n-alt="gallery.item1.alt" />
+                <span class="gallery-label" data-i18n="gallery.item1.label">محاصيل زراعية</span>
+              </div>
+              <div class="gallery-item">
+                <img src="photo/photo2.png" alt="حبوب ومحاصيل" data-i18n-alt="gallery.item2.alt" />
+                <span class="gallery-label" data-i18n="gallery.item2.label">بذور وحبوب</span>
+              </div>
+              <div class="gallery-item">
+                <img src="photo/photo3.png" alt="جرار زراعي" data-i18n-alt="gallery.item3.alt" />
+                <span class="gallery-label" data-i18n="gallery.item3.label">جرارات ومعدات</span>
+              </div>
+              <div class="gallery-item">
+                <img src="photo/photo4.png" alt="أدوات زراعية " data-i18n-alt="gallery.item4.alt" />
+                <span class="gallery-label" data-i18n="gallery.item4.label"> أدوات زراعية</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="section section-alt">
+        <div class="container about-grid">
+          <div>
+            <h2 data-i18n="about.title">نبذة عن الشركة</h2>
+            <p data-i18n="about.text1">
+              شركة أرض الخيرات الأولى متخصصة في استيراد وبيع المستلزمات الزراعية وقطع الغيار،
+              وتخدم المزارعين وتجار الجملة والمحلات الزراعية بتشكيلات مختارة من موردين
+              موثوقين حول العالم.
+            </p>
+            <p data-i18n="about.text2">
+              نؤمن بأن الإنتاج الزراعي الجيد يبدأ من توفير مستلزمات عالية الجودة بأسعار
+              مناسبة، لذلك نحرص على مواكبة المواسم الزراعية وتلبية احتياجات السوق المحلي
+              بسرعة وموثوقية.
+            </p>
+          </div>
+          <div class="about-highlights">
+            <div class="about-item">
+              <span class="about-label" data-i18n="about.highlight1.label">الأسواق المستهدفة</span>
+              <span class="about-value" data-i18n="about.highlight1.value">ليبيا والأسواق العربية المهتمة بالزراعة والإنتاج الغذائي</span>
+            </div>
+            <div class="about-item">
+              <span class="about-label" data-i18n="about.highlight2.label">شرائح العملاء</span>
+              <span class="about-value" data-i18n="about.highlight2.value">المزارعون، تجار الجملة، المحلات الزراعية، وشركات الري</span>
+            </div>
+            <div class="about-item">
+              <span class="about-label" data-i18n="about.highlight3.label">نقاط القوة</span>
+              <span class="about-value" data-i18n="about.highlight3.value">تنوع المنتجات، جودة الاستيراد، أسعار تنافسية، وخدمة موثوقة</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2 data-i18n="faq.title">الأسئلة الشائعة</h2>
+            <p data-i18n="faq.text">إجابات سريعة عن أكثر الأسئلة تكرارًا حول شركة أرض الخيرات الأولى وخدماتها.</p>
+          </header>
+          <div class="cards-grid">
+            <article class="card">
+              <h3 data-i18n="faq.q1.title">ما هي طبيعة عمل أرض الخيرات الأولى؟</h3>
+              <p data-i18n="faq.q1.text">
+                نحن شركة استيراد وبيع متخصصة في المستلزمات الزراعية، المعدات، وقطع الغيار،
+                ونوفر للمزارعين وتجار الجملة منتجات موثوقة من موردين معتمدين.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="faq.q2.title">ما أنواع المنتجات التي توفرونها؟</h3>
+              <p data-i18n="faq.q2.text">
+                نوفر بذورًا وأسمدة ومبيدات، معدات ري وزراعة، جرارات وآلات، بالإضافة إلى
+                قطع غيار للمحركات والهيدروليك والإطارات وغيرها من احتياجات الصيانة.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="faq.q3.title">كيف تضمنون جودة المنتجات المستوردة؟</h3>
+              <p data-i18n="faq.q3.text">
+                نتعامل مع موردين معتمدين ونفحص المنتجات قبل الشحن، مع التأكد من مطابقة
+                المواصفات وصلاحية البذور والأسمدة والمبيدات للاستخدام الزراعي.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="faq.q4.title">هل توفرون منتجات حسب المواسم الزراعية؟</h3>
+              <p data-i18n="faq.q4.text">
+                نعم، نحدّث مخزوننا وفق مواسم الزراعة والحصاد، ونوفر البذور والأسمدة
+                والمبيدات المناسبة لكل موسم زراعي.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="faq.q5.title">هل تخدمون تجار الجملة والمحلات الزراعية؟</h3>
+              <p data-i18n="faq.q5.text">
+                بالتأكيد، نقدم أسعارًا خاصة لتجار الجملة والمحلات الزراعية، مع إمكانية
+                تجهيز طلبيات كبيرة حسب احتياجات كل عميل.
+              </p>
+            </article>
+            <article class="card">
+              <h3 data-i18n="faq.q6.title">هل لديكم حد أدنى للطلبات؟</h3>
+              <p data-i18n="faq.q6.text">
+                يختلف الحد الأدنى حسب نوع المنتج والكمية المطلوبة، ويمكن مناقشة التفاصيل
+                مباشرة مع فريق المبيعات لكل طلب.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Info Section -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <header class="section-header">
+            <h2 data-i18n="contact.title">بيانات تواصل شركة أرض الخيرات الأولى</h2>
+            <p data-i18n="contact.text">للاستفسار عن المنتجات أو الأسعار أو التعاون التجاري، تواصلوا معنا عبر البيانات التالية.</p>
+          </header>
+          <div class="contact-details">
+            <div>
+              <h3 data-i18n="contact.company.title">بيانات الشركة</h3>
+              <p><strong data-i18n="contact.company.nameLabel">اسم الشركة:</strong> <span data-i18n="contact.company.nameValue">شركة أرض الخيرات الأولى لاستيراد وبيع المستلزمات الزراعية وقطع الغيار</span></p>
+              <p><strong data-i18n="contact.company.cityLabel">المدينة / الدولة:</strong> <span data-i18n="contact.company.cityValue">طرابلس، ليبيا</span></p>
+            </div>
+            <div>
+              <h3 data-i18n="contact.comm.title">هاتف وبريد</h3>
+              <p><strong data-i18n="contact.comm.phoneLabel">هاتف:</strong> +218919611077</p>
+              <p><strong data-i18n="contact.comm.whatsappLabel">واتساب:</strong> +218919611077</p>
+              <p><strong data-i18n="contact.comm.emailLabel">البريد الإلكتروني:</strong> info@ardalkhairat.ly</p>
+              <p><strong data-i18n="contact.comm.emailLabel">البريد الإلكتروني:</strong> abdoalabasi136@gmail.com</p>
+
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.copy">© <span id="year"></span>  أرض الخيرات الأولى. جميع الحقوق محفوظة.</p>
+        <p class="footer-meta" data-i18n="footer.meta">استيراد وبيع المستلزمات الزراعية وقطع الغيار.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Simple script to keep the footer year up to date
+      document.getElementById("year").textContent = new Date().getFullYear();
+
+      // Translation data
+      const translations = {
+        ar: {
+          htmlLang: "ar",
+          dir: "rtl",
+          "nav.services": "مجالات العمل",
+          "nav.about": "من نحن",
+          "nav.faq": "الأسئلة الشائعة",
+          "nav.contact": "تواصل معنا",
+          "hero.title": "شريككم الموثوق في المستلزمات الزراعية وقطع الغيار.",
+          "hero.subtitle":
+            "في أرض الخيرات الأولى نوفر تشكيلة متكاملة من البذور والأسمدة والمبيدات، إلى جانب المعدات الزراعية وقطع غيار الجرارات والآلات، بجودة عالية وأسعار تنافسية للمزارعين وتجار الجملة.",
+          "hero.ctaPrimary": "استكشف منتجاتنا",
+          "hero.ctaSecondary": "تعرف أكثر على الشركة",
+          "hero.tag1": "أسمدة ومبيدات زراعية",
+          "hero.tag2": "معدات ري وزراعة",
+          "hero.tag3": "قطع غيار للجرارات والآلات",
+          "hero.cardMain.title": "استيراد موثوق",
+          "hero.cardMain.text": "نختار موردين معتمدين لضمان جودة المنتجات وملاءمتها للظروف الزراعية المحلية.",
+          "hero.cardMain.item1": "علامات تجارية عالمية معتمدة",
+          "hero.cardMain.item2": "تشكيلات موسمية حسب مواسم الزراعة",
+          "hero.cardMain.item3": "جودة مضمونة وأسعار منافسة",
+          "hero.cardSecondary.badge": "تخصصنا",
+          "hero.cardSecondary.item1": "بذور وأسمدة ومبيدات حشرية",
+          "hero.cardSecondary.item2": "مضخات ري وشبكات تغذية",
+          "hero.cardSecondary.item3": "قطع غيار جرارات ومعدات زراعية",
+          "services.title": "مجالات عملنا",
+          "services.text":
+            "نستورد ونوفر كل ما يحتاجه المزارع والتاجر من مستلزمات زراعية ومعدات وقطع غيار، مع التزام بالجودة والتوفر على مدار المواسم الزراعية.",
+          "services.card1.title": "المستلزمات الزراعية",
+          "services.card1.text":
+            "بذور محسّنة وأسمدة عضوية وكيماوية ومبيدات آمنة، تناسب مختلف المحاصيل والبيئات الزراعية في ليبيا والمنطقة.",
+          "services.card1.item1": "بذور خضروات وحبوب وفواكه",
+          "services.card1.item2": "أسمدة NPK ومغذيات نباتية",
+          "services.card1.item3": "مبيدات حشرية وفطرية",
+          "services.card2.title": "المعدات والآلات الزراعية",
+          "services.card2.text":
+            "معدات حديثة تسهّل الزراعة والحصاد والري، من مضخات المياه إلى أدوات الحراثة والرش الزراعي.",
+          "services.card2.item1": "مضخات مياه وشبكات ري بالتنقيط",
+          "services.card2.item2": "جرارات ومعدات حرث وزراعة",
+          "services.card2.item3": "رشاشات ومولدات زراعية",
+          "services.card3.title": "قطع الغيار والصيانة",
+          "services.card3.text":
+            "قطع غيار أصلية وبديلة للجرارات والحصادات والمضخات، لضمان استمرارية العمل في المزارع دون توقف.",
+          "services.card3.item1": "فلاتر وزيوت وقطع محركات",
+          "services.card3.item2": "إطارات ومساحات ومحاور",
+          "services.card3.item3": "قطع هيدروليكية وكهربائية",
+          "gallery.title": "نماذج من منتجاتنا",
+          "gallery.text":
+            "لمحة عن المستلزمات والمعدات الزراعية التي نوفرها للمزارعين وتجار الجملة.",
+          "gallery.item1.label": "محاصيل زراعية",
+          "gallery.item2.label": "بذور وحبوب",
+          "gallery.item3.label": "جرارات ومعدات",
+          "gallery.item4.label": "ري وأدوات زراعية",
+          "gallery.item1.alt": "حقول زراعية خضراء",
+          "gallery.item2.alt": "حبوب ومحاصيل",
+          "gallery.item3.alt": "جرار زراعي",
+          "gallery.item4.alt": "أدوات زراعية وري",
+          "about.title": "نبذة عن الشركة",
+          "about.text1":
+            "شركة أرض الخيرات الأولى متخصصة في استيراد وبيع المستلزمات الزراعية وقطع الغيار، وتخدم المزارعين وتجار الجملة والمحلات الزراعية بتشكيلات مختارة من موردين موثوقين حول العالم.",
+          "about.text2":
+            "نؤمن بأن الإنتاج الزراعي الجيد يبدأ من توفير مستلزمات عالية الجودة بأسعار مناسبة، لذلك نحرص على مواكبة المواسم الزراعية وتلبية احتياجات السوق المحلي بسرعة وموثوقية.",
+          "about.highlight1.label": "الأسواق المستهدفة",
+          "about.highlight1.value": "ليبيا والأسواق العربية المهتمة بالزراعة والإنتاج الغذائي",
+          "about.highlight2.label": "شرائح العملاء",
+          "about.highlight2.value": "المزارعون، تجار الجملة، المحلات الزراعية، وشركات الري",
+          "about.highlight3.label": "نقاط القوة",
+          "about.highlight3.value":
+            "تنوع المنتجات، جودة الاستيراد، أسعار تنافسية، وخدمة موثوقة",
+          "faq.title": "الأسئلة الشائعة",
+          "faq.text":
+            "إجابات سريعة عن أكثر الأسئلة تكرارًا حول شركة أرض الخيرات الأولى وخدماتها.",
+          "faq.q1.title": "ما هي طبيعة عمل أرض الخيرات الأولى؟",
+          "faq.q1.text":
+            "نحن شركة استيراد وبيع متخصصة في المستلزمات الزراعية، المعدات، وقطع الغيار، ونوفر للمزارعين وتجار الجملة منتجات موثوقة من موردين معتمدين.",
+          "faq.q2.title": "ما أنواع المنتجات التي توفرونها؟",
+          "faq.q2.text":
+            "نوفر بذورًا وأسمدة ومبيدات، معدات ري وزراعة، جرارات وآلات، بالإضافة إلى قطع غيار للمحركات والهيدروليك والإطارات وغيرها من احتياجات الصيانة.",
+          "faq.q3.title": "كيف تضمنون جودة المنتجات المستوردة؟",
+          "faq.q3.text":
+            "نتعامل مع موردين معتمدين ونفحص المنتجات قبل الشحن، مع التأكد من مطابقة المواصفات وصلاحية البذور والأسمدة والمبيدات للاستخدام الزراعي.",
+          "faq.q4.title": "هل توفرون منتجات حسب المواسم الزراعية؟",
+          "faq.q4.text":
+            "نعم، نحدّث مخزوننا وفق مواسم الزراعة والحصاد، ونوفر البذور والأسمدة والمبيدات المناسبة لكل موسم زراعي.",
+          "faq.q5.title": "هل تخدمون تجار الجملة والمحلات الزراعية؟",
+          "faq.q5.text":
+            "بالتأكيد، نقدم أسعارًا خاصة لتجار الجملة والمحلات الزراعية، مع إمكانية تجهيز طلبيات كبيرة حسب احتياجات كل عميل.",
+          "faq.q6.title": "هل لديكم حد أدنى للطلبات؟",
+          "faq.q6.text":
+            "يختلف الحد الأدنى حسب نوع المنتج والكمية المطلوبة، ويمكن مناقشة التفاصيل مباشرة مع فريق المبيعات لكل طلب.",
+          "contact.title": "بيانات تواصل شركة أرض الخيرات الأولى",
+          "contact.text":
+            "للاستفسار عن المنتجات أو الأسعار أو التعاون التجاري، تواصلوا معنا عبر البيانات التالية.",
+          "contact.company.title": "بيانات الشركة",
+          "contact.company.nameLabel": "اسم الشركة:",
+          "contact.company.nameValue": "شركة أرض الخيرات الأولى لاستيراد وبيع المستلزمات الزراعية وقطع الغيار",
+          "contact.company.addressLabel": "العنوان:",
+          "contact.company.addressValue": "طرابلس - ليبيا",
+          "contact.company.cityLabel": "المدينة / الدولة:",
+          "contact.company.cityValue": "طرابلس، ليبيا",
+          "contact.comm.title": "هاتف وبريد",
+          "contact.comm.phoneLabel": "هاتف:",
+          "contact.comm.whatsappLabel": "واتساب:",
+          "contact.comm.emailLabel": "البريد الإلكتروني:",
+          "footer.copy": "© " + new Date().getFullYear() + "  أرض الخيرات الأولى. جميع الحقوق محفوظة.",
+          "footer.meta": "استيراد وبيع المستلزمات الزراعية وقطع الغيار."
+        },
+        en: {
+          htmlLang: "en",
+          dir: "ltr",
+          "nav.services": "Our Services",
+          "nav.about": "About Us",
+          "nav.faq": "FAQ",
+          "nav.contact": "Contact",
+          "hero.title": "Your trusted partner in agricultural supplies and spare parts.",
+          "hero.subtitle":
+            "At Ard Al-Khairat Al-Oula, we provide a complete range of seeds, fertilizers, and pesticides, along with agricultural equipment and spare parts for tractors and machinery — all at competitive prices for farmers and wholesalers.",
+          "hero.ctaPrimary": "Explore Our Products",
+          "hero.ctaSecondary": "Learn More About Us",
+          "hero.tag1": "Fertilizers & Pesticides",
+          "hero.tag2": "Irrigation & Farming Equipment",
+          "hero.tag3": "Tractor & Machinery Spare Parts",
+          "hero.cardMain.title": "Trusted Import",
+          "hero.cardMain.text":
+            "We select certified suppliers to ensure product quality and suitability for local agricultural conditions.",
+          "hero.cardMain.item1": "Certified global brands",
+          "hero.cardMain.item2": "Seasonal collections for farming cycles",
+          "hero.cardMain.item3": "Guaranteed quality and competitive prices",
+          "hero.cardSecondary.badge": "Our Specialty",
+          "hero.cardSecondary.item1": "Seeds, fertilizers and pesticides",
+          "hero.cardSecondary.item2": "Irrigation pumps and drip systems",
+          "hero.cardSecondary.item3": "Tractor and farm equipment spare parts",
+          "services.title": "Our Business Areas",
+          "services.text":
+            "We import and supply everything farmers and traders need — agricultural inputs, equipment, and spare parts — with a commitment to quality and availability throughout the farming seasons.",
+          "services.card1.title": "Agricultural Supplies",
+          "services.card1.text":
+            "Improved seeds, organic and chemical fertilizers, and safe pesticides suitable for various crops and environments in Libya and the region.",
+          "services.card1.item1": "Vegetable, grain and fruit seeds",
+          "services.card1.item2": "NPK fertilizers and plant nutrients",
+          "services.card1.item3": "Insecticides, fungicides and herbicides",
+          "services.card2.title": "Agricultural Equipment & Machinery",
+          "services.card2.text":
+            "Modern equipment that simplifies planting, harvesting and irrigation — from water pumps to tillage tools and sprayers.",
+          "services.card2.item1": "Water pumps and drip irrigation systems",
+          "services.card2.item2": "Tractors and tillage equipment",
+          "services.card2.item3": "Sprayers and agricultural generators",
+          "services.card3.title": "Spare Parts & Maintenance",
+          "services.card3.text":
+            "Original and alternative spare parts for tractors, harvesters and pumps, ensuring uninterrupted farm operations.",
+          "services.card3.item1": "Filters, oils and engine parts",
+          "services.card3.item2": "Tires, blades and axles",
+          "services.card3.item3": "Hydraulic and electrical components",
+          "gallery.title": "Sample Products",
+          "gallery.text":
+            "A glimpse of the agricultural supplies and equipment we provide to farmers and wholesalers.",
+          "gallery.item1.label": "Agricultural Crops",
+          "gallery.item2.label": "Seeds & Grains",
+          "gallery.item3.label": "Tractors & Equipment",
+          "gallery.item4.label": "Irrigation & Tools",
+          "gallery.item1.alt": "Green agricultural fields",
+          "gallery.item2.alt": "Grains and crops",
+          "gallery.item3.alt": "Agricultural tractor",
+          "gallery.item4.alt": "Farming tools and irrigation",
+          "about.title": "About the Company",
+          "about.text1":
+            "Ard Al-Khairat Al-Oula specializes in importing and selling agricultural supplies and spare parts, serving farmers, wholesalers and agricultural stores with carefully selected products from trusted suppliers worldwide.",
+          "about.text2":
+            "We believe good agricultural production starts with high-quality supplies at fair prices. That is why we keep pace with farming seasons and respond to local market needs quickly and reliably.",
+          "about.highlight1.label": "Target Markets",
+          "about.highlight1.value":
+            "Libya and Arab markets focused on agriculture and food production",
+          "about.highlight2.label": "Customer Segments",
+          "about.highlight2.value":
+            "Farmers, wholesalers, agricultural stores and irrigation companies",
+          "about.highlight3.label": "Strengths",
+          "about.highlight3.value":
+            "Product variety, import quality, competitive pricing and reliable service",
+          "faq.title": "Frequently Asked Questions",
+          "faq.text":
+            "Quick answers to the most common questions about Ard Al-Khairat Al-Oula and our services.",
+          "faq.q1.title": "What does Ard Al-Khairat Al-Oula do?",
+          "faq.q1.text":
+            "We are an import and sales company specialized in agricultural supplies, equipment and spare parts, providing farmers and wholesalers with reliable products from certified suppliers.",
+          "faq.q2.title": "What types of products do you offer?",
+          "faq.q2.text":
+            "We supply seeds, fertilizers and pesticides, irrigation and farming equipment, tractors and machinery, plus spare parts for engines, hydraulics, tires and other maintenance needs.",
+          "faq.q3.title": "How do you ensure the quality of imported products?",
+          "faq.q3.text":
+            "We work with certified suppliers and inspect products before shipping, ensuring specifications are met and that seeds, fertilizers and pesticides are suitable for agricultural use.",
+          "faq.q4.title": "Do you offer products based on farming seasons?",
+          "faq.q4.text":
+            "Yes, we update our inventory according to planting and harvest seasons, providing the right seeds, fertilizers and pesticides for each farming cycle.",
+          "faq.q5.title": "Do you serve wholesalers and agricultural stores?",
+          "faq.q5.text":
+            "Absolutely. We offer special pricing for wholesalers and agricultural stores, with the ability to fulfill large orders tailored to each client's needs.",
+          "faq.q6.title": "Do you have a minimum order quantity?",
+          "faq.q6.text":
+            "The minimum order varies by product type and quantity required. Details can be discussed directly with our sales team for each order.",
+          "contact.title": "Ard Al-Khairat Al-Oula Contact Details",
+          "contact.text":
+            "For inquiries about products, pricing or business cooperation, please use the following contact details.",
+          "contact.company.title": "Company Details",
+          "contact.company.nameLabel": "Company Name:",
+          "contact.company.nameValue":
+            "Ard Al-Khairat Al-Oula for Import and Sale of Agricultural Supplies and Spare Parts",
+          "contact.company.addressLabel": "Address:",
+          "contact.company.addressValue": "Tripoli - Libya",
+          "contact.company.cityLabel": "City / Country:",
+          "contact.company.cityValue": "Tripoli, Libya",
+          "contact.comm.title": "Phone & Email",
+          "contact.comm.phoneLabel": "Phone:",
+          "contact.comm.whatsappLabel": "WhatsApp:",
+          "contact.comm.emailLabel": "Email:",
+          "footer.copy":
+            "© " + new Date().getFullYear() + "  Ard Al-Khairat Al-Oula. All rights reserved.",
+          "footer.meta": "Import and sale of agricultural supplies and spare parts."
+        }
+      };
+
+      function applyLanguage(lang) {
+        const dict = translations[lang];
+        if (!dict) return;
+
+        // html attributes
+        document.documentElement.lang = dict.htmlLang;
+        document.documentElement.dir = dict.dir;
+
+        // text content
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (dict[key] !== undefined) {
+            el.textContent = dict[key];
+          }
+        });
+
+        // alt attributes
+        document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
+          const key = el.getAttribute("data-i18n-alt");
+          if (dict[key] !== undefined) {
+            el.setAttribute("alt", dict[key]);
+          }
+        });
+
+        // update footer year inside the translated copy if needed
+        const yearSpan = document.getElementById("year");
+        if (yearSpan) {
+          yearSpan.textContent = new Date().getFullYear();
+        }
+
+        // toggle button text
+        const btn = document.getElementById("lang-toggle");
+        if (btn) {
+          btn.textContent = lang === "ar" ? "EN" : "العربية";
+        }
+      }
+
+      const langToggleBtn = document.getElementById("lang-toggle");
+      let currentLang = "ar";
+
+      if (langToggleBtn) {
+        langToggleBtn.addEventListener("click", () => {
+          currentLang = currentLang === "ar" ? "en" : "ar";
+          applyLanguage(currentLang);
+        });
+      }
+    </script>
+  </body>
+</html>
